@@ -1,0 +1,9 @@
+/* Generate Social Icons */
+Project.socialNav = function() { 
+	$('.social-nav ul li').each(function(e){
+		var anchor = $(this).children('a'),
+		lower = anchor.text().toLowerCase();
+		anchor.append('<i class="fa fa-' + lower + '"></i>');
+	});
+};
+
