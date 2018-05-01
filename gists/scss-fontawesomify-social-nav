@@ -1,0 +1,21 @@
+/**
+ * Generate Social Icons 
+ * 
+ * @author Scott Baker
+ * @requires 'js-fontawesomify-social-nav.js'
+ */
+
+.js {
+    .social-nav {
+        >ul {
+            > li {
+                > a {
+                    font-size: 0; 
+                    .fa{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
