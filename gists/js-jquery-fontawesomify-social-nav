@@ -1,4 +1,10 @@
-/* Generate Social Icons */
+/**
+ * Generate Social Icons 
+ * 
+ * @author Scott Baker
+ * @requires './scss-fontawesomify-social-nav.scss'
+ */
+ 
 Project.socialNav = function() { 
 	$('.social-nav ul li').each(function(e){
 		var anchor = $(this).children('a'),
@@ -6,4 +12,3 @@ Project.socialNav = function() {
 		anchor.append('<i class="fa fa-' + lower + '"></i>');
 	});
 };
-
